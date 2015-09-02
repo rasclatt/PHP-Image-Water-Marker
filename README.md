@@ -12,8 +12,7 @@ This php class creates a PNG-based watermark over another image using the GDLibr
 			// This can be used to change the name of the destination file
 			// This will filter to filename-friendly value 
 			->UseName("french fry \$lx_DS+F-sdfa!@#%;'#%^&&")
-			// This is used to assign the save location of the document
-			// This can take the original document and save to a new destination
+			// This is used to take the original image file and save to a new destination
 			// The folder will be created (attempt to create) if not exists
 			->SaveTo(__DIR__.'/fragooo/')
 			// This will create the document
