@@ -1,4 +1,11 @@
 <?php
+/**
+ * Create a simple overlay
+ * https://github.com/rasclatt/PHP-Image-Water-Marker/
+ * Licensed under the GNU GENERAL PUBLIC LICENSE
+ * @author Rasclatt <rasclatt@me.com>
+ * @version 0.0.1
+ */
 	class	WaterMarker
 		{
 			protected	$imagepath;
